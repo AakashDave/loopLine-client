@@ -21,6 +21,7 @@ const App = () => {
           <CssBaseline />
           <Routes>
             <Route path="/" element={<LoginPage />} />
+            <Route path="/" element={<LoginPage />} />
             <Route path="/home" element={<HomePage />} />
             <Route path="/profile/:userId" element={<ProfilePage />} />
           </Routes>
